@@ -1,7 +1,7 @@
 {
   "name": "drop-element",
   "description": "An NPM package for vue components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "levo <rainlevo0819@163.com>",
   "license": "MIT",
   "private": false,
