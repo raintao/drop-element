@@ -5,25 +5,30 @@
     <meta charset="utf-8">
     <title>drop-element</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
-
+    <style>
+        #app {
+            padding-top: 100px;
+            text-align: center;
+            font-size: 26px;
+        }
+    </style>
 </head>
 
 <body>
     <div id="app">
         <drop-header></drop-header>
-
-            <div class="body">
-                这是body
-            </div>
+        <div class="body">
+            {{msg}}
+        </div>
         <drop-footer></drop-footer>
     </div>
     <script src="./drop-element.js"></script>
     <script>
         new Vue ({
-            name: "app",
+            el: "#app",
             data() {
                 return {
-                    msg: "Welcome to vue-package-front"
+                    msg: "Welcome to drop-element"
                 };
             }
         });

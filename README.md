@@ -17,6 +17,15 @@
     });
 
 ```
+## 通过js引入
+
+``` bash
+    // 完整demo在lib/demo.html
+    <script src="./drop-element.js"></script>
+
+```
+
+
 
 ## 做为vue组件模版
 
