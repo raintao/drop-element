@@ -1,18 +1,52 @@
-# vue-package-front
+# drop-element
 
-> 快速开发一个vue插件并发布到npm的模版
+> vue组件库（可作为一个快速开发vue组件并发布到npm的模版）
 
-## Build Setup
+## 完整引入drop-element
 
 ``` bash
-# install dependencies
-npm install
+    import Vue from 'vue';
+    import DropElement from 'drop-element';
+    import App from './App.vue';
 
-# serve with hot reload at localhost:8080
-npm run dev
+    Vue.use(DropElement);
 
-# build for production with minification
-npm run build
+    new Vue({
+    el: '#app',
+    render: h => h(App)
+    });
+
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 做为vue组件模版
+
+``` bash
+
+    $ git clone https://github.com/raintao/drop-element.git
+    $ cd drop-element
+    $ npm install
+    $ npm start
+    
+``` 
+
+## 也可利用[drop-cli](https://github.com/raintao/drop-cli.git)脚手架安装模版
+
+#### 1. 安装drop-cli
+
+```
+$ npm install drop-cli -g
+$ drop-cli list
+
+```
+
+#### 2.选择模板并创建自己的项目
+
+```
+$ drop-cli init
+$ gulp-html-front // 输入一个模版
+$ gulp-html-test  // 输入自己的项目名称
+$ cd gulp-html-test
+$ npm install
+
+```
+
