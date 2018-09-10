@@ -2,7 +2,7 @@
   <div id="app">
     <drop-header></drop-header>
 
-    <img src="../assets/logo.png">
+    <!-- <img src="../assets/logo.png"> -->
     <h1>{{ msg }}</h1>
     <h2>组件列表</h2>
 
