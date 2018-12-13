@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: 
     process.env.NODE_ENV === 'production'
-    ? './src/index.js'
+    ? './packages/index.js'
     : './src/preview/main.js',
   output: {
     path: path.resolve(__dirname, './lib'),

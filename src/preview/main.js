@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import DropElement from '../index.js';
-Vue.use(DropElement);
+import '../index.js';
 
 new Vue({
   el: '#app',

@@ -4,6 +4,7 @@
 
     <!-- <img src="../assets/logo.png"> -->
     <h1>{{ msg }}</h1>
+    <drop-input></drop-input>
     <h2>组件列表</h2>
 
     <drop-footer></drop-footer>
